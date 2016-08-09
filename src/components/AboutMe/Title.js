@@ -9,20 +9,24 @@ import blog from "../../img/blog.svg";
 
 const socialList = [
     {
+        alt: "github",
         image: github,
-        alt: "github"
+        url: "https://github.com/fay-jai"
     },
     {
+        alt: "twitter",
         image: twitter,
-        alt: "twitter"
+        url: "https://twitter.com/fay_jai"
     },
     {
+        alt: "linkedin",
         image: linkedin,
-        alt: "linkedin"
+        url: "https://www.linkedin.com/in/willsonmock"
     },
     {
+        alt: "blog",
         image: blog,
-        alt: "blog"
+        url: "https://medium.com/@fay_jai/"
     }
 ];
 
@@ -41,7 +45,7 @@ class Title extends Component {
     }
 
     renderSocialList() {
-        return socialList.map((social) => <Social {...social} />);
+        return socialList.map((social) => <Social key={social.alt} {...social} />);
     }
 }
 
