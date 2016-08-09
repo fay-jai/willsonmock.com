@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import { experience } from "../../data";
+import "./Experience.css";
 
 class Experience extends Component {
     render() {
         return (
             <div className="Experience">
-            { this.renderExperienceList() }
+                <h2 className="Experience__header">Experience</h2>
+                { this.renderExperienceList() }
             </div>
         );
     }
