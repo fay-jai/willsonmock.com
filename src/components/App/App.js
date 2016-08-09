@@ -9,7 +9,7 @@ class App extends Component {
         return (
             <div className="App">
                 <AboutMe />
-                <Experience experience={[]} />
+                <Experience />
                 <Education education={[]} />
             </div>
         );
