@@ -8,7 +8,7 @@ const data = {
     aboutMe: {
         name: "Willson Mock",
         email: "willson.mock@gmail.com",
-        blurb: "Just a fay jai",
+        blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque, elit ut elementum venenatis, lorem nunc ullamcorper nulla, non condimentum sapien quam ut orci. Ut a nisi nec neque elementum imperdiet. In hac habitasse platea dictumst. Sed rhoncus, nulla vitae condimentum tincidunt, magna velit feugiat enim, nec molestie ante est vel lorem. Praesent elit nisi, tristique venenatis augue eleifend, aliquet mattis velit. Curabitur suscipit, urna et malesuada mattis, felis justo consectetur tortor, sit amet volutpat arcu nisl vitae diam. Donec et urna ac risus volutpat euismod eu et quam. Integer feugiat laoreet consectetur. Vestibulum mattis erat non purus lobortis rutrum. Quisque tristique pretium sem a auctor. Cras sed elementum ligula, in aliquam diam.",
         profile: profile,
         social: [
             {

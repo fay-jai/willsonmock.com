@@ -1,4 +1,15 @@
-/*.Title__social_list {
+.Title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Title__social_list {
+    display: flex;
     list-style-type: none;
     padding: 0;
-}*/
+}
+
+.Title__social_list_item {
+    padding: 0 5px;
+}
