@@ -1,20 +1,15 @@
-import React, { Component } from "react";
-import profile from "../../img/profile.jpg";
+import React from "react";
 import "./Name.css";
 
-class Name extends Component {
-    render() {
-        return (
-            <div className="Name">
-                <div className="Name__image_container">
-                    <img className="Name__image" src={profile} alt="profile" />
-                </div>
-                <h1 className="Name__name">
-                    Willson Mock
-                </h1>
+export default ({ name, profile }) => {
+    return (
+        <div className="Name">
+            <div className="Name__image_container">
+                <img className="Name__image" src={profile} alt="profile" />
             </div>
-        );
-    }
-}
-
-export default Name;
+            <h1 className="Name__name">
+                { name }
+            </h1>
+        </div>
+    );
+};

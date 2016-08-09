@@ -1,12 +1,10 @@
 import React from "react";
 
-export default () => {
+export default ({ blurb, email }) => {
     return (
         <div className="Blurb">
-            <p>
-                Just a fay jai
-            </p>
-            <a href="mailto:willson.mock@gmail.com" className="Blurb__contact_button">Contact me</a>
+            <p>{blurb}</p>
+            <a href={`mailto:${email}`} className="Blurb__contact_button">Contact me</a>
         </div>
     );
 };
