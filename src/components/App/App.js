@@ -10,7 +10,7 @@ class App extends Component {
             <div className="App">
                 <AboutMe />
                 <Experience />
-                <Education education={[]} />
+                <Education />
             </div>
         );
     }

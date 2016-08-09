@@ -66,7 +66,38 @@ const data = {
         }
     ],
     education: [
-
+        {
+            name: "Cornell University",
+            degree: "Masters of Engineering",
+            major: "Operations Research & Industrial Engineering",
+            startYear: moment("2007").format("YYYY"),
+            endYear: moment("2008").format("YYYY"),
+            location: "Ithaca, NY"
+        },
+        {
+            name: "Cornell University",
+            degree: "Bachelors of Science",
+            major: "Operations Research & Industrial Engineering",
+            startYear: moment("2003").format("YYYY"),
+            endYear: moment("2007").format("YYYY"),
+            location: "Ithaca, NY"
+        },
+        {
+            name: "Melbourne High School",
+            degree: null,
+            major: null,
+            startYear: moment("2000").format("YYYY"),
+            endYear: moment("2003").format("YYYY"),
+            location: "Melbourne, FL"
+        },
+        {
+            name: "Bronx High School of Science",
+            degree: null,
+            major: null,
+            startYear: moment("1999").format("YYYY"),
+            endYear: moment("2000").format("YYYY"),
+            location: "Bronx, NY"
+        }
     ]
 };
 
