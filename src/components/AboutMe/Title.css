@@ -1,17 +1,22 @@
 .Title {
+    align-items: center;
+    border-top: 4px solid #c7c7c7;
+    border-bottom: 2px solid #c7c7c7;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding: 10px 0;
 }
 
 .Title__title {
     font-size: 1.75rem;
     font-weight: 300;
+    margin: 0;
 }
 
 .Title__social_list {
     display: flex;
     list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 
