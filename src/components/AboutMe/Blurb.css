@@ -2,3 +2,14 @@
     line-height: 1.5em;
     text-align: left;
 }
+
+.Blurb__contact_button {
+    background-color: #efefef;
+    color: #333;
+    display: block;
+    line-height: 55px;
+    height: 55px;
+    margin: 0 auto;
+    text-decoration: none;
+    width: 220px;
+}
