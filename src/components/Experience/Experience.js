@@ -13,14 +13,20 @@ class Experience extends Component {
     }
 
     renderExperienceList() {
-        const experienceList = experience.map(({ company, title, location, startDate, endDate }) => {
+        const bullet = <span className="bullet">&bull;</span>;
+        const experienceList = experience.map(({ company, url, title, startDate, endDate }) => {
+            const present = endDate === null ? "Present" : endDate;
+
             return (
-                <li className="Experience__list_item">
-                    <p>Company: {company}</p>
-                    <p>Title: {title}</p>
-                    <p>Location: {location}</p>
-                    <p>Start Date: {startDate}</p>
-                    <p>End Date: {endDate}</p>
+                <li key={company} className="Experience__list_item">
+                    <h3 className="Experience__company"><a href={url} className="Experience__url">{company}</a></h3>
+                    <p className="Experience__title_dates">
+                        <span className="Experience__title">{title}</span>
+                        {bullet}
+                        <span className="Experience__start_date">{startDate}</span>
+                        <span> &ndash; </span>
+                        <span className="Experience__end_date">{present}</span>
+                    </p>
                 </li>
             );
         });

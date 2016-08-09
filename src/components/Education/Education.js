@@ -15,8 +15,8 @@ class Education extends Component {
     renderEducationList() {
         const educationList = education.map(({ name, degree, major, startYear, endYear, location }) => {
             return (
-                <li className="Education__list_item">
-                    <p>Name: {name}</p>
+                <li key={name + startYear}className="Education__list_item">
+                    <h3>Name: {name}</h3>
                     <p>Degree: {degree}</p>
                     <p>Major: {major}</p>
                     <p>Start Year: {startYear}</p>

@@ -38,6 +38,7 @@ const data = {
     experience: [
         {
             company: "Palantir",
+            url: "https://www.palantir.com/",
             title: "Full Stack Engineer",
             location: "San Francisco, CA",
             startDate: moment("February 2015").format("MMMM YYYY"),
@@ -45,6 +46,7 @@ const data = {
         },
         {
             company: "Altitude Labs",
+            url: "http://altitudelabs.com/",
             title: "Full Stack Engineer",
             location: "Hong Kong, China",
             startDate: moment("February 2014").format("MMMM YYYY"),
@@ -52,6 +54,7 @@ const data = {
         },
         {
             company: "AppNexus",
+            url: "https://www.appnexus.com/",
             title: "Technical Consultant",
             location: "New York, NY",
             startDate: moment("January 2012").format("MMMM YYYY"),
@@ -59,6 +62,7 @@ const data = {
         },
         {
             company: "American Express",
+            url: "https://www.americanexpress.com/",
             title: "Senior Manager",
             location: "New York, NY",
             startDate: moment("July 2008").format("MMMM YYYY"),
@@ -68,6 +72,7 @@ const data = {
     education: [
         {
             name: "Cornell University",
+            url: "https://www.cornell.edu/",
             degree: "Masters of Engineering",
             major: "Operations Research & Industrial Engineering",
             startYear: moment("2007").format("YYYY"),
@@ -76,6 +81,7 @@ const data = {
         },
         {
             name: "Cornell University",
+            url: "https://www.cornell.edu/",
             degree: "Bachelors of Science",
             major: "Operations Research & Industrial Engineering",
             startYear: moment("2003").format("YYYY"),
@@ -84,6 +90,7 @@ const data = {
         },
         {
             name: "Melbourne High School",
+            url: "http://www.edline.net/pages/Melbourne_High_School/",
             degree: null,
             major: null,
             startYear: moment("2000").format("YYYY"),
@@ -92,6 +99,7 @@ const data = {
         },
         {
             name: "Bronx High School of Science",
+            url: "http://www.bxscience.edu/",
             degree: null,
             major: null,
             startYear: moment("1999").format("YYYY"),
