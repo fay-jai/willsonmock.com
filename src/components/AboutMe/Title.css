@@ -1,7 +1,12 @@
 .Title {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+
+.Title__title {
+    font-size: 1.75rem;
+    font-weight: 300;
 }
 
 .Title__social_list {
