@@ -3,6 +3,7 @@ import Name from "./Name";
 import Title from "./Title";
 import Blurb from "./Blurb";
 import { aboutMe } from "../../data";
+import "./AboutMe.css";
 
 export default () => {
     const { blurb, email, name, profile, social, title } = aboutMe;
