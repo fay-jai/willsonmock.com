@@ -13,7 +13,7 @@ class Experience extends Component {
     }
 
     renderExperienceList() {
-        const experienceList = experience.map(({ company, url, title, startDate, endDate }) => {
+        const experienceList = experience.map(({ company, url, title, startDate, endDate, accomplishments }) => {
             const present = endDate === null ? "Present" : endDate;
 
             return (
@@ -26,10 +26,18 @@ class Experience extends Component {
                         <span> &ndash; </span>
                         <span className="Experience__end_date">{present}</span>
                     </p>
+                    { this.renderAccomplishmentsList(accomplishments) }
                 </li>
             );
         });
         return <ul className="Experience__list">{ experienceList }</ul>;
+    }
+
+    renderAccomplishmentsList(accomplishments) {
+        const list = accomplishments.map((acc, idx) => {
+            return <li key={idx} className="Experience__accomplishments_list_item">{acc}</li>;
+        });
+        return <ul className="Experience__accomplishments_list">{list}</ul>;
     }
 };
 

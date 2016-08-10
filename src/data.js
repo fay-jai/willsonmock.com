@@ -58,7 +58,7 @@ const data = {
             endDate: moment("January 2015").format("MMMM YYYY"),
             accomplishments: [
                 "Lead front-end engineer for client projects",
-                "Grew initial team by assessing and hiring engineers"
+                "Responsible for hiring and onboarding process"
             ]
         },
         {

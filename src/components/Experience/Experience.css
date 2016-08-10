@@ -9,6 +9,15 @@
     padding: 20px 0 5px 0;
 }
 
+.Experience__accomplishments_list {
+    list-style-type: disc;
+}
+
+.Experience__accomplishments_list_item {
+    line-height: 1.2rem;
+    padding-bottom: 10px;
+}
+
 .Experience__header {
     border-top: 4px solid #c7c7c7;
     border-bottom: 2px solid #c7c7c7;
@@ -31,6 +40,7 @@
 
 .Experience__title_dates {
     margin: 0;
+    padding-bottom: 20px;
 }
 
 .Experience__url {
