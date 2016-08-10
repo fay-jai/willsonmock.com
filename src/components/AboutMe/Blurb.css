@@ -5,6 +5,7 @@
 
 .Blurb__contact_button {
     background-color: #efefef;
+    border-radius: 5px;
     color: #333;
     display: block;
     line-height: 55px;
@@ -12,4 +13,9 @@
     margin: 0 auto;
     text-decoration: none;
     width: 220px;
+}
+
+.Blurb__contact_button:hover {
+    background-color: #333;
+    color: #fff;
 }
