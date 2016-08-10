@@ -13,7 +13,6 @@ class Experience extends Component {
     }
 
     renderExperienceList() {
-        const bullet = <span className="bullet">&bull;</span>;
         const experienceList = experience.map(({ company, url, title, startDate, endDate }) => {
             const present = endDate === null ? "Present" : endDate;
 
@@ -22,7 +21,7 @@ class Experience extends Component {
                     <h3 className="Experience__company"><a href={url} className="Experience__url">{company}</a></h3>
                     <p className="Experience__title_dates">
                         <span className="Experience__title">{title}</span>
-                        {bullet}
+                        <span className="bullet">&bull;</span>
                         <span className="Experience__start_date">{startDate}</span>
                         <span> &ndash; </span>
                         <span className="Experience__end_date">{present}</span>

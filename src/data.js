@@ -42,15 +42,24 @@ const data = {
             title: "Full Stack Engineer",
             location: "San Francisco, CA",
             startDate: moment("February 2015").format("MMMM YYYY"),
-            endDate: null
+            endDate: null,
+            accomplishments: [
+                "Migrated existing Angular 1.x project to React ecosystem and improved existing tooling",
+                "Created front-end user interface for data integration tool using React.js and TypeScript",
+                "Built visualization dashboard for oil company using Backbone.js and CoffeeScript"
+            ]
         },
         {
             company: "Altitude Labs",
             url: "http://altitudelabs.com/",
-            title: "Full Stack Engineer",
+            title: "Founder & Full Stack Engineer",
             location: "Hong Kong, China",
             startDate: moment("February 2014").format("MMMM YYYY"),
             endDate: moment("January 2015").format("MMMM YYYY"),
+            accomplishments: [
+                "Lead front-end engineer for client projects",
+                "Grew initial team by assessing and hiring engineers"
+            ]
         },
         {
             company: "AppNexus",
@@ -59,6 +68,9 @@ const data = {
             location: "New York, NY",
             startDate: moment("January 2012").format("MMMM YYYY"),
             endDate: moment("June 2013").format("MMMM YYYY"),
+            accomplishments: [
+                "Started new team dedicated to advising 3rd app developers on how to integrate with AppNexus APIs"
+            ]
         },
         {
             company: "American Express",
@@ -67,6 +79,9 @@ const data = {
             location: "New York, NY",
             startDate: moment("July 2008").format("MMMM YYYY"),
             endDate: moment("December 2011").format("MMMM YYYY"),
+            accomplishments: [
+                "Managed team focused on increasing effectiveness of different Small Business online acquistion channels"
+            ]
         }
     ],
     education: [
@@ -87,24 +102,6 @@ const data = {
             startYear: moment("2003").format("YYYY"),
             endYear: moment("2007").format("YYYY"),
             location: "Ithaca, NY"
-        },
-        {
-            name: "Melbourne High School",
-            url: "http://www.edline.net/pages/Melbourne_High_School/",
-            degree: null,
-            major: null,
-            startYear: moment("2000").format("YYYY"),
-            endYear: moment("2003").format("YYYY"),
-            location: "Melbourne, FL"
-        },
-        {
-            name: "Bronx High School of Science",
-            url: "http://www.bxscience.edu/",
-            degree: null,
-            major: null,
-            startYear: moment("1999").format("YYYY"),
-            endYear: moment("2000").format("YYYY"),
-            location: "Bronx, NY"
         }
     ]
 };
