@@ -11,6 +11,9 @@ class App extends Component {
                 <AboutMe />
                 <Experience />
                 <Education />
+                <footer className="App__footer">
+                    <small>&copy; Copyright 2016 - built with React and various web technologies for fun and learning</small>
+                </footer>
             </div>
         );
     }
