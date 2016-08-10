@@ -1,3 +1,4 @@
+import React from "react";
 import moment from "moment";
 import blog from "./img/blog.svg";
 import github from "./img/github.svg";
@@ -5,12 +6,22 @@ import linkedin from "./img/linkedin.svg";
 import profile from "./img/profile.jpg";
 import twitter from "./img/twitter.svg";
 
+const blurb = (
+    <span>
+        Grew up in <a href="https://en.wikipedia.org/wiki/Chinatowns_in_Brooklyn">NYC</a> and&nbsp;
+        <a href="https://en.wikipedia.org/wiki/Melbourne,_Florida">Florida</a> before adventuring to&nbsp;
+        <a href="http://altitudelabs.com/">Hong Kong</a> and settling in the Bay Area. Love personal fitness and recently completed a&nbsp;
+        <a href="https://www.instagram.com/p/BGVtFHEyBTV/?taken-by=fay_jai">100 day challenge</a>. Traveled off the beaten path to become a
+        software engineer, and always striving to learn more and <a href="https://medium.com/@fay_jai/">teach others</a>.
+    </span>
+);
+
 const data = {
     aboutMe: {
         name: "Willson Mock",
         email: "willson.mock@gmail.com",
-        blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque, elit ut elementum venenatis, lorem nunc ullamcorper nulla, non condimentum sapien quam ut orci. Ut a nisi nec neque elementum imperdiet. In hac habitasse platea dictumst. Sed rhoncus, nulla vitae condimentum tincidunt, magna velit feugiat enim, nec molestie ante est vel lorem. Praesent elit nisi, tristique venenatis augue eleifend, aliquet mattis velit. Curabitur suscipit, urna et malesuada mattis, felis justo consectetur tortor, sit amet volutpat arcu nisl vitae diam. Donec et urna ac risus volutpat euismod eu et quam. Integer feugiat laoreet consectetur. Vestibulum mattis erat non purus lobortis rutrum. Quisque tristique pretium sem a auctor. Cras sed elementum ligula, in aliquam diam.",
-        profile: profile,
+        blurb,
+        profile,
         social: [
             {
                 alt: "github",
