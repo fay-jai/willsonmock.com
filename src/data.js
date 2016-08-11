@@ -52,7 +52,7 @@ const data = {
             url: "https://www.palantir.com/",
             title: "Full Stack Engineer",
             location: "San Francisco, CA",
-            startDate: moment("February 2015").format("MMMM YYYY"),
+            startDate: moment(new Date("2015-02-01")).format("MMMM YYYY"),
             endDate: null,
             accomplishments: [
                 "Migrated existing Angular 1.x project to React ecosystem and improved existing tooling",
@@ -65,8 +65,8 @@ const data = {
             url: "http://altitudelabs.com/",
             title: "Founder & Full Stack Engineer",
             location: "Hong Kong, China",
-            startDate: moment("February 2014").format("MMMM YYYY"),
-            endDate: moment("January 2015").format("MMMM YYYY"),
+            startDate: moment(new Date("2014-02-01")).format("MMMM YYYY"),
+            endDate: moment(new Date("2015-01-01")).format("MMMM YYYY"),
             accomplishments: [
                 "Lead front-end engineer for client projects",
                 "Responsible for hiring and onboarding process"
@@ -77,8 +77,8 @@ const data = {
             url: "https://www.appnexus.com/",
             title: "Technical Consultant",
             location: "New York, NY",
-            startDate: moment("January 2012").format("MMMM YYYY"),
-            endDate: moment("June 2013").format("MMMM YYYY"),
+            startDate: moment(new Date("2012-01-01")).format("MMMM YYYY"),
+            endDate: moment(new Date("2013-06-01")).format("MMMM YYYY"),
             accomplishments: [
                 "Started new team dedicated to advising 3rd app developers on how to integrate with AppNexus APIs"
             ]
@@ -88,8 +88,8 @@ const data = {
             url: "https://www.americanexpress.com/",
             title: "Senior Manager",
             location: "New York, NY",
-            startDate: moment("July 2008").format("MMMM YYYY"),
-            endDate: moment("December 2011").format("MMMM YYYY"),
+            startDate: moment(new Date("2008-07-01")).format("MMMM YYYY"),
+            endDate: moment(new Date("2011-12-01")).format("MMMM YYYY"),
             accomplishments: [
                 "Managed team focused on increasing effectiveness of different Small Business online acquistion channels"
             ]
@@ -101,8 +101,8 @@ const data = {
             url: "https://www.cornell.edu/",
             degree: "Masters of Engineering",
             major: "Operations Research & Industrial Engineering",
-            startYear: moment("2007").format("YYYY"),
-            endYear: moment("2008").format("YYYY"),
+            startYear: moment("2007-09-01").format("YYYY"),
+            endYear: moment("2008-06-01").format("YYYY"),
             location: "Ithaca, NY"
         },
         {
@@ -110,8 +110,8 @@ const data = {
             url: "https://www.cornell.edu/",
             degree: "Bachelors of Science",
             major: "Operations Research & Industrial Engineering",
-            startYear: moment("2003").format("YYYY"),
-            endYear: moment("2007").format("YYYY"),
+            startYear: moment("2003-09-01").format("YYYY"),
+            endYear: moment("2007-06-01").format("YYYY"),
             location: "Ithaca, NY"
         }
     ]
